@@ -40,5 +40,5 @@ class LoginFormTest(LiveServerTestCase):
         submit.send_keys(Keys.RETURN)
         time.sleep(3)
         print(driver.page_source)
-        assert 'kamil' in driver.page_source
+        assert 'kamil' in driver.page_source 
         
