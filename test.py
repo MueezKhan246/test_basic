@@ -17,7 +17,7 @@ class Hosttest(LiveServerTestCase):
 				driver.get(self.live_server_url)
 				# try driver.get(self.live_server_url) if driver.get('http://127.0.0.1:8000/') does not work
 				
-				assert "Hello, worldk!" in driver.title
+				assert "Hello, world!" in driver.title
 
 # class LoginFormTest(LiveServerTestCase):
 
