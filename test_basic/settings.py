@@ -79,8 +79,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
         # 'TEST': {
-        #     'USER': 'kamil',
-        #     'PASSWORD': 'kamil',
+        #     # 'USER': 'kamil',
+        #     # 'PASSWORD': 'kamil',
+        #     'ENGINE': 'django.db.backends.sqlite3',
         #     'NAME': BASE_DIR / 'db.sqlite3'
         # }
     }
