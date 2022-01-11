@@ -12,7 +12,7 @@ class Hosttest(LiveServerTestCase):
 
 				options = Options()
 				options.headless = True
-				driver = webdriver.Chrome(executable_path="/Users/mueezkhan/django-test/chromedriver", options=options)
+				driver = webdriver.Chrome(options=options)
 
 				driver.get(self.live_server_url)
 				# try driver.get(self.live_server_url) if driver.get('http://127.0.0.1:8000/') does not work
